@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Resource class for REST service for PO approvals</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>CONFIRM_PO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handles the whole confirmation process</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>GET_MODELS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns model neccessary to save PO</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>GET_RECORD_FROM_CONFIRM_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns a single record from table with confirmation guids</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>IS_ALREADY_CONFIRMED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checks whether a PO has been already confirmed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MARK_PO_AS_CONFIRMED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Marks PO as confirmed in a table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MC_PO_CONFIRMATION_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table for PO confirmation tracking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MO_PO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle of a Purchasing Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MO_PO_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item of a Purchasing Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MV_GUID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>GUID in &apos;CHAR&apos; Format in Uppercase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MV_HEADER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Purchasing Document Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>MV_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item Number of Purchasing Document</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>PREPARE_PO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepares PO before confirmation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>PREPARE_PO_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepares PO item before using</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>SET_HEADER_AND_ITEM_FROM_GUID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets header and item member fields fom received guid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_REST_PO_CONFIRMATION</CLSNAME>
+     <CMPNAME>SET_TIMESTAMP_ON_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sets time stamp on item to be visible in EKPO-LABNR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
